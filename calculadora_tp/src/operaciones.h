@@ -8,13 +8,6 @@
 #ifndef OPERACIONES_H_
 #define OPERACIONES_H_
 
-/** \brief se pide el ingreso de un numero
- *
- * \param num1 int operando a evaluar
- * \return int devuelve el numero
- *
- */
-int pedirnumeros(int num1);
 
 /** \brief Realiza la suma entre dos numeros enteros
  *
@@ -54,7 +47,7 @@ int resta(int a, int b);
  */
 int multiplicacion (int a, int b);
 
-/** \brief Toma un numero
+/** \brief Toma un numero, no puede ser mayor a 16 ni negativo
  *
  * \param num int numero a calcular
  * \return float devuelve su factorial
